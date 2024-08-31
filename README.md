@@ -14,8 +14,8 @@ I'm a PostDoc with a passion for ML, DL and Computer Vision. I enjoy working on 
 It is currently private project. The goal of this project is to develop a comprehensive, automated workflow for analyzing Cham documents, an ancient script with cultural and historical significance. The workflow consists of three primary stages: Image Enhancement, Text Line Segmentation, and Text Line Transliteration (OCR). Each stage is designed to address the unique challenges presented by Cham manuscripts, including their age, script complexity, and the varying quality of preserved documents.
 **Duration**: Sep 2023 - Now
 #### 1. Image Retrieval
-**Objective**: Retrieval all the similar stamps given input stamp.
-**Solution**: Triplet loss with customize miner.
+-**Objective**: Retrieval all the similar stamps given input stamp.
+-**Solution**: Triplet loss with customize miner.
 
 **Duration**: Feb 2020 - Jul 2023
 
@@ -39,8 +39,42 @@ This workflow automates the analysis of Cham documents (inscription and manuscri
 
 
 ### [ASR]()
-Short description of the project. What technologies you used, what it does, and any other relevant info.
+# Automatic Speech Recognition (ASR) Project
 
+## Project: Voice Trigger System for Russian, Spanish, and French
+
+**Duration**: August 2018 - October 2019
+
+## Overview
+This project focused on developing a Voice Trigger System tailored for Russian, Spanish, and French languages. The system utilizes Automatic Speech Recognition (ASR) technologies to detect specific voice commands or "triggers." The primary tools used were HTK (Hidden Markov Model Toolkit) and Kaldi, both widely recognized in the speech recognition community.
+
+## Key Activities
+
+### 1. Speech Recognition Investigation
+- **Objective**: Explore and evaluate ASR methodologies based on HTK and Kaldi tools.
+- **Tasks**:
+  - Conducted a comparative analysis of HTK and Kaldi to determine the best framework for multilingual voice trigger systems.
+  - Investigated acoustic and language modeling techniques to optimize recognition accuracy for each target language.
+
+### 2. Voice Trigger Model Fine-Tuning
+- **Objective**: Adapt and fine-tune the Voice Trigger models for Russian, Spanish, and French.
+- **Tasks**:
+  - Customized and trained models using language-specific datasets to enhance trigger detection accuracy.
+  - Implemented and tested various parameter tuning strategies to improve model performance across the three languages.
+  - Addressed language-specific challenges such as phonetic variability and acoustic differences.
+
+## Tools & Technologies
+- **HTK (Hidden Markov Model Toolkit)**: Used for initial ASR model training and evaluation.
+- **Kaldi**: Employed for advanced modeling, including deep learning-based approaches for speech recognition.
+- **Datasets**: Language-specific datasets for Russian, Spanish, and French to train and validate the models.
+
+## Outcomes
+- Successfully developed and fine-tuned Voice Trigger models for Russian, Spanish, and French languages.
+- Achieved high accuracy in detecting voice triggers across different languages by leveraging the strengths of both HTK and Kaldi.
+- The project laid the groundwork for further advancements in multilingual ASR systems, particularly in voice-activated applications.
+
+## Conclusion
+The Voice Trigger System project demonstrated the effective use of ASR technologies to create robust, language-specific voice recognition models. By fine-tuning models for Russian, Spanish, and French, the project contributed to the development of more accurate and responsive voice-activated systems in multiple languages.
 ## 🛠️ Technologies & Tools
 - Programming Languages: Python, MATLAB, Javascript, Objective C, Bash
 - Frameworks: Pytorch, Tensorflow,  Transformers, Pandas
