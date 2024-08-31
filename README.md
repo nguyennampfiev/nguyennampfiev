@@ -11,7 +11,7 @@ I'm a PostDoc with a passion for ML, DL and Computer Vision. I enjoy working on 
 ## 🚀 Projects
 
 ### [ANR CHAMdoc]()
-It is currently private project. The goal of this project is to develop a comprehensive, automated workflow for analyzing Cham documents, an ancient script with cultural and historical significance. The workflow consists of three primary stages: Image Enhancement, Text Line Segmentation, and Text Line Transliteration (OCR). Each stage is designed to address the unique challenges presented by Cham manuscripts, including their age, script complexity, and the varying quality of preserved documents.
+The goal of this project is to develop a comprehensive, automated workflow for analyzing Cham documents, an ancient script with cultural and historical significance. The workflow consists of three primary stages: Image Enhancement, Text Line Segmentation, and Text Line Transliteration (OCR). Each stage is designed to address the unique challenges presented by Cham manuscripts, including their age, script complexity, and the varying quality of preserved documents.
 
 - **Duration**: Sep 2023 - Now
 #### 1. Image Retrieval
@@ -36,6 +36,39 @@ It is currently private project. The goal of this project is to develop a compre
 
 ##### Final Deliverable
 This workflow automates the analysis of Cham documents (inscription and manuscript), enhancing images, segmenting text, and converting it into digital text. This process aids in the preservation and further study of Cham cultural heritage.
+### [IIE]()
+
+# Project: Invoice Information Extraction
+
+**Duration**: 2020 - 2021
+
+## Overview
+This project focused on developing an automated system for extracting key information from invoices. The project involved creating a robust pre-processing algorithm to handle rotated invoice images and integrating a micro AI service into a complete information extraction pipeline.
+
+## Key Activities
+
+### 1. Pre-Processing Algorithm Development
+- **Objective**: Correctly rotate invoice images to standardize orientation for accurate data extraction.
+- **Tasks**:
+  - Developed a pre-processing algorithm to detect and correct the orientation of scanned or photographed invoices.
+  - Utilized image processing techniques to identify text and layout patterns that indicate the correct orientation.
+  - Integrated the algorithm into the pipeline, ensuring that all invoices are properly aligned before further processing.
+
+### 2. Micro AI Service Development
+- **Objective**: Create a micro AI service to handle the extraction of key information from invoices.
+- **Tasks**:
+  - Designed and implemented a microservice using AI models capable of identifying and extracting relevant fields (e.g., invoice number, date, total amount) from invoices.
+  - Integrated the micro AI service into the broader pipeline, ensuring seamless data flow and processing.
+
+## Tools & Technologies
+- **Image Processing**: Used for developing the rotation correction algorithm, focusing on text detection and orientation analysis.
+- **AI/ML Models**: Implemented to recognize and extract key invoice fields, adaptable to different invoice templates and layouts.
+- **Microservices Architecture**: Designed the AI service as a microservice to enable modular and scalable integration with the extraction pipeline.
+
+## Outcomes
+- Successfully developed a pre-processing algorithm that reliably corrects the orientation of invoice images, leading to more accurate data extraction.
+- Created and deployed a micro AI service that efficiently extracts key invoice information, significantly reducing manual processing time.
+
 
 
 ### [ASR]()
