@@ -1,12 +1,12 @@
 # Hi there, I'm [Your Name] 👋
 
-I'm a [your profession] with a passion for [your passions]. I enjoy working on [types of projects you enjoy]. Check out some of my work below!
+I'm a PostDoc with a passion for ML, DL and Computer Vision. I enjoy working on ANR Chamdoc project. Check out some of my work below!
 
-- 🔭 I’m currently working on [current project]
-- 🌱 I’m currently learning [current learning goal]
-- 👯 I’m looking to collaborate on [type of projects]
-- 💬 Ask me about [topics you can help with]
-- 📫 How to reach me: [your email or other contact info]
+- 🔭 I’m currently working on ANR Chamdoc project 
+- 🌱 I’m currently learning NLP as well as LLMs, RAG
+- 👯 I’m looking to collaborate on 
+- 💬 Ask me about Document Processing, OCR, Denoising, Generative Modeling, Action Recognition. 
+- 📫 How to reach me: nguyennampfiev1995@gmail.com
 
 ## 🚀 Projects
 
