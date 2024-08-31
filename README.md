@@ -64,11 +64,6 @@ This project focused on developing an automated system for extracting key inform
 - **AI/ML Models**: Implemented to recognize and extract key invoice fields, adaptable to different invoice templates and layouts.
 - **Microservices Architecture**: Designed the AI service as a microservice to enable modular and scalable integration with the extraction pipeline.
 
-## Outcomes
-- Successfully developed a pre-processing algorithm that reliably corrects the orientation of invoice images, leading to more accurate data extraction.
-- Created and deployed a micro AI service that efficiently extracts key invoice information, significantly reducing manual processing time.
-
-
 
 ### [ASR]()
 # Automatic Speech Recognition (ASR) Project
