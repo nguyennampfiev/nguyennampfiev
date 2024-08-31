@@ -1,4 +1,4 @@
-# Hi there, I'm [Your Name] 👋
+# Hi there, I'm Nam 👋
 
 I'm a PostDoc with a passion for ML, DL and Computer Vision. I enjoy working on ANR Chamdoc project. Check out some of my work below!
 
@@ -12,27 +12,29 @@ I'm a PostDoc with a passion for ML, DL and Computer Vision. I enjoy working on 
 
 ### [ANR CHAMdoc]()
 It is currently private project. The goal of this project is to develop a comprehensive, automated workflow for analyzing Cham documents, an ancient script with cultural and historical significance. The workflow consists of three primary stages: Image Enhancement, Text Line Segmentation, and Text Line Transliteration (OCR). Each stage is designed to address the unique challenges presented by Cham manuscripts, including their age, script complexity, and the varying quality of preserved documents.
-## Workflow Stages
+**Duration**: Sep 2023 - Now
+#### 1. Image Retrieval
+**Objective**: Retrieval all the similar stamps given input stamp.
+**Solution**: Triplet loss with customize miner.
 
-#### 1. Image Enhancement
+**Duration**: Feb 2020 - Jul 2023
+
+##### 1. Image Enhancement
 
 **Objective**: Improve the quality of scanned Cham document images.
-**Solution**:
-  - Pix2Pix model with Multi scale Attention.
+**Solution**: Pix2Pix model with Multi scale Attention.
 
-#### 2. Text Line Segmentation
+##### 2. Text Line Segmentation
 
 **Objective**: Accurately segment text lines from enhanced images.
-**Solution**:
-  - Seam Carving algorithm with additional cost fucntion
+**Solution**: Seam Carving algorithm with additional cost fucntion
 
-#### 3. Text Line Transliteration (OCR)
+##### 3. Text Line Transliteration (OCR)
 
 **Objective**: Convert segmented Cham text lines into machine-readable text.
-**Solution**:
-  - Seq2Seq model with Transformer
+**Solution**: Seq2Seq model with Transformer
 
-#### Final Deliverable
+##### Final Deliverable
 This workflow automates the analysis of Cham documents (inscription and manuscript), enhancing images, segmenting text, and converting it into digital text. This process aids in the preservation and further study of Cham cultural heritage.
 
 
