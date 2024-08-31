@@ -18,7 +18,7 @@ The goal of this project is to develop a comprehensive, automated workflow for a
 - **Objective**: Retrieval all the similar stamps given input stamp.
 - **Solution**: Triplet loss with customize miner.
 
--**Duration**: Feb 2020 - Jul 2023
+- **Duration**: Feb 2020 - Jul 2023
 ##### 2. Image Enhancement
 
 - **Objective**: Improve the quality of scanned Cham document images.
