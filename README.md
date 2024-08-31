@@ -31,8 +31,8 @@ It is currently private project. The goal of this project is to develop a compre
 
 ##### 4. Text Line Transliteration (OCR)
 
-**Objective**: Convert segmented Cham text lines into machine-readable text.
-**Solution**: Seq2Seq model with Transformer
+- **Objective**: Convert segmented Cham text lines into machine-readable text.
+- **Solution**: Seq2Seq model with Transformer
 
 ##### Final Deliverable
 This workflow automates the analysis of Cham documents (inscription and manuscript), enhancing images, segmenting text, and converting it into digital text. This process aids in the preservation and further study of Cham cultural heritage.
