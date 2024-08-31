@@ -12,24 +12,24 @@ I'm a PostDoc with a passion for ML, DL and Computer Vision. I enjoy working on 
 
 ### [ANR CHAMdoc]()
 It is currently private project. The goal of this project is to develop a comprehensive, automated workflow for analyzing Cham documents, an ancient script with cultural and historical significance. The workflow consists of three primary stages: Image Enhancement, Text Line Segmentation, and Text Line Transliteration (OCR). Each stage is designed to address the unique challenges presented by Cham manuscripts, including their age, script complexity, and the varying quality of preserved documents.
-**Duration**: Sep 2023 - Now
+
+-**Duration**: Sep 2023 - Now
 #### 1. Image Retrieval
 -**Objective**: Retrieval all the similar stamps given input stamp.
 -**Solution**: Triplet loss with customize miner.
 
-**Duration**: Feb 2020 - Jul 2023
+-**Duration**: Feb 2020 - Jul 2023
+##### 2. Image Enhancement
 
-##### 1. Image Enhancement
+- **Objective**: Improve the quality of scanned Cham document images.
+- **Solution**: Pix2Pix model with Multi scale Attention.
 
-**Objective**: Improve the quality of scanned Cham document images.
-**Solution**: Pix2Pix model with Multi scale Attention.
+##### 3. Text Line Segmentation
 
-##### 2. Text Line Segmentation
+- **Objective**: Accurately segment text lines from enhanced images.
+- **Solution**: Seam Carving algorithm with additional cost fucntion
 
-**Objective**: Accurately segment text lines from enhanced images.
-**Solution**: Seam Carving algorithm with additional cost fucntion
-
-##### 3. Text Line Transliteration (OCR)
+##### 4. Text Line Transliteration (OCR)
 
 **Objective**: Convert segmented Cham text lines into machine-readable text.
 **Solution**: Seq2Seq model with Transformer
