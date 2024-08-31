@@ -83,7 +83,7 @@ This project focused on developing a Voice Trigger System tailored for Russian, 
 ### 1. Speech Recognition Investigation
 - **Objective**: Explore and evaluate ASR methodologies based on HTK and Kaldi tools.
 - **Tasks**:
-  - Conducted a comparative analysis of HTK and Kaldi to determine the best framework for multilingual voice trigger systems.
+  - Conducted a the use of mixing tool between HTK and Kaldi for voice trigger systems.
   - Investigated acoustic and language modeling techniques to optimize recognition accuracy for each target language.
 
 ### 2. Voice Trigger Model Fine-Tuning
