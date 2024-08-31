@@ -36,10 +36,7 @@ The goal of this project is to develop a comprehensive, automated workflow for a
 
 ##### Final Deliverable
 This workflow automates the analysis of Cham documents (inscription and manuscript), enhancing images, segmenting text, and converting it into digital text. This process aids in the preservation and further study of Cham cultural heritage.
-### [IIE]()
-
-#Invoice Information Extraction
-
+### [Invoice Information Extraction]()
 **Duration**: 2020 - 2021
 
 ## Overview
