@@ -104,8 +104,4 @@ This project focused on developing a Voice Trigger System tailored for Russian, 
 - Frameworks: Pytorch, Tensorflow,  Transformers, Pandas
 - Tools: Flask, HTK, Kaldi
 
-## 📈 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact)
 
