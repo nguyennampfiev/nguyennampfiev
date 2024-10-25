@@ -20,11 +20,11 @@ The goal of this project is to develop a comprehensive, automated workflow for a
 - **Objective**: Retrieval all the similar stamps given input stamp.
 - **Solution**:
   
-  Grounding DINO for segmentation.
+  - Grounding DINO for segmentation.
   
-  Triplet loss with customize miner based on SwinTransformer.
+  - Triplet loss with customize miner based on SwinTransformer.
   
-  I created a simple interface so user can easily to interact with system based on Streamlib and Docker.
+  - I created a simple interface so user can easily to interact with system based on Streamlib and Docker.
 **Duration**: Feb 2020 - Jul 2023
 ##### 2. Image Enhancement
 
