@@ -19,6 +19,7 @@ The goal of this project is to develop a comprehensive, automated workflow for a
 #### 1. Image Retrieval
 - **Objective**: Retrieval all the similar stamps given input stamp.
 - **Solution**:
+  
   Grounding DINO for segmentation.
   
   Triplet loss with customize miner based on SwinTransformer.
