@@ -18,7 +18,9 @@ The goal of this project is to develop a comprehensive, automated workflow for a
 **Duration**: Sep 2023 - Now
 #### 1. Image Retrieval
 - **Objective**: Retrieval all the similar stamps given input stamp.
-- **Solution**: DINO for segmentation then Triplet loss with customize miner based on SwinTransformer.
+- **Solution**:
+  Grounding DINO for segmentation
+  Triplet loss with customize miner based on SwinTransformer.
 
 **Duration**: Feb 2020 - Jul 2023
 ##### 2. Image Enhancement
