@@ -35,14 +35,14 @@ The goal of this project is to develop a comprehensive, automated workflow for a
 
 - **Objective**: Accurately segment text lines from enhanced images.
 - **Solution**:
-- I proposed finetuning [docExtractor](https://github.com/monniert/docExtractor) for base line extraction
-- I modified the typical Seam Carving algorithm by adding the additional cost fucntion for correcly adjust bounding box
-
+  - I proposed finetuning [docExtractor](https://github.com/monniert/docExtractor) for base line extraction.
+  - I modified the typical Seam Carving algorithm by adding the additional cost fucntion for correcly adjust bounding box.
+    
 ##### 4. Text Line Transliteration (OCR)
 
 - **Objective**: Convert segmented Cham text lines into machine-readable text.
 - **Solution**: Seq2Seq model with Transformer
-
+  - I proposed two step sequence transformer by first using Seq2Seq model to translate text from Cham alphabet to Latin alphabet then using Transformer to adjust the results
 ##### Final Deliverable
 This workflow automates the analysis of Cham documents (inscription and manuscript), enhancing images, segmenting text, and converting it into digital text. This process aids in the preservation and further study of Cham cultural heritage.
 ### [Invoice Information Extraction]()
