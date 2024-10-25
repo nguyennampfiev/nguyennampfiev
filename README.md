@@ -21,20 +21,22 @@ The goal of this project is to develop a comprehensive, automated workflow for a
 - **Solution**:
   
   - Grounding DINO for segmentation.
-  
   - Triplet loss with customize miner based on SwinTransformer.
-  
   - I created a simple interface so user can easily to interact with system based on Streamlib and Docker.
+
 **Duration**: Feb 2020 - Jul 2023
 ##### 2. Image Enhancement
 
 - **Objective**: Improve the quality of scanned Cham document images.
-- **Solution**: Pix2Pix model with Multi scale Attention.
+- **Solution**:
+  - I proposed Pix2Pix model with Multi scale Attention for further improve both quantitative and qualitative of documents.
 
 ##### 3. Text Line Segmentation
 
 - **Objective**: Accurately segment text lines from enhanced images.
-- **Solution**: Seam Carving algorithm with additional cost fucntion
+- **Solution**:
+- I proposed finetuning [docExtractor](https://github.com/monniert/docExtractor) for base line extraction
+- I modified the typical Seam Carving algorithm by adding the additional cost fucntion for correcly adjust bounding box
 
 ##### 4. Text Line Transliteration (OCR)
 
