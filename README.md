@@ -23,7 +23,8 @@ The goal of this project is to develop a comprehensive, automated workflow for a
   Grounding DINO for segmentation.
   
   Triplet loss with customize miner based on SwinTransformer.
-
+  
+  I created a simple interface so user can easily to interact with system based on Streamlib and Docker.
 **Duration**: Feb 2020 - Jul 2023
 ##### 2. Image Enhancement
 
