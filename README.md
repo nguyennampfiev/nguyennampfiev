@@ -107,8 +107,8 @@ This project focused on developing a Voice Trigger System tailored for Russian, 
 - The project laid the groundwork for further advancements in multilingual ASR systems, particularly in voice-activated applications.
 
 ## 🛠️ Technologies & Tools
--Tools                                       Git, Flask, Gradio, Streamlit, Docker, Kubernetes, Postman
--Computer Vision              Document Image Analysis, Image translation, OCR, Object Detection
+- Tools                                       Git, Flask, Gradio, Streamlit, Docker, Kubernetes, Postman
+- Computer Vision              Document Image Analysis, Image translation, OCR, Object Detection
                                                    Fine-grained  Image Retrieval, Segmentation, Human Action Recognition, 
                                                    GANs, VAEs.
 - GenAI                                     Hugging Face, Langchain, Unstructured Io, Knowledge Graphs
