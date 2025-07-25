@@ -15,7 +15,7 @@ I'm a PostDoc with a passion for ML, DL and Computer Vision. I enjoy working on 
 
 The goal of this project is to develop a comprehensive, automated workflow for analyzing Cham documents, an ancient script with cultural and historical significance. The workflow consists of three primary stages: Image Enhancement, Text Line Segmentation, and Text Line Transliteration (OCR). Each stage is designed to address the unique challenges presented by Cham manuscripts, including their age, script complexity, and the varying quality of preserved documents.
 
-**Duration**: Sep 2023 - Now
+**Duration**: Sep 2023 - July 2024
 #### 1. Image Retrieval
 - **Objective**: Retrieval all the similar stamps given input stamp.
 - **Solution**:
