@@ -1,9 +1,8 @@
 # Hi there, I'm Nam 👋
 
-I'm a PostDoc with a passion for ML, DL and Computer Vision. I enjoy working on ANR Chamdoc project. Check out some of my work below!
+I'm a PostDoc with a passion for LLMs, ML, DL and Computer Vision. Check out some of my work below!
 
-- 🔭 I’m currently working on ANR CHAMdoc project.
-- 🌱 I’m currently learning NLP as well as LLMs, RAG.
+- 🔭 I’m currently working on Neweyes project.
 - 👯 I’m looking to collaborate on NLP as well as Computer Vision problem.
 - 💬 Ask me about Document Processing, OCR, Denoising, Generative Modeling, ASR, Action Recognition. 
 - 📫 How to reach me: nguyennampfiev1995@gmail.com
