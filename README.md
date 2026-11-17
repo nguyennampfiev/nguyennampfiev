@@ -1,117 +1,97 @@
-# Hi there, I'm Nam 👋
+# Hi, I'm Nam (Tien Nam Nguyen) 👋
 
-I'm a PostDoc with a passion for LLMs, ML, DL and Computer Vision. Check out some of my work below!
+**AI Research Engineer — LLMs, Document & Speech AI · PhD in Computer Science**
 
-- 🔭 I’m currently working on Neweyes project.
-- 👯 I’m looking to collaborate on NLP as well as Computer Vision problem.
-- 💬 Ask me about Document Processing, OCR, Denoising, Generative Modeling, ASR, Action Recognition. 
-- 📫 How to reach me: nguyennampfiev1995@gmail.com
+I turn state-of-the-art models into useful products. 6+ years of R&D experience, from research to deployment, across **LLMs** (fine-tuning, GRPO/DPO alignment, agents, RAG), **document intelligence** (OCR, information extraction, NER/NEL) and **speech AI** (Speech-LLMs, ASR, VAD).
 
-## 🚀 Projects
+- 🔭 Currently building a **voice agent on Speech-LLMs** at Lumi-VN
+- 📄 Published at **EMNLP, ICDAR, ICPR, LREC, IEEE Access, Scientific Reports**
+- 🏆 **1st place** ICDAR 2021 competition (Task 1) · **3rd place** HIPE-OCRepair, ICDAR 2026
+- 🌐 Website: [nguyennampfiev.github.io](https://nguyennampfiev.github.io)
+- 📫 [namnt.pfiev@gmail.com](mailto:namnt.pfiev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/tien-nam-nguyen/)
 
-### [ANR CHAMdoc]()
-## Overview
+---
 
-The goal of this project is to develop a comprehensive, automated workflow for analyzing Cham documents, an ancient script with cultural and historical significance. The workflow consists of three primary stages: Image Enhancement, Text Line Segmentation, and Text Line Transliteration (OCR). Each stage is designed to address the unique challenges presented by Cham manuscripts, including their age, script complexity, and the varying quality of preserved documents.
+## 💼 Experience
 
-**Duration**: Sep 2023 - July 2024
-#### 1. Image Retrieval
-- **Objective**: Retrieval all the similar stamps given input stamp.
-- **Solution**:
-  
-  - Grounding DINO for segmentation.
-  - Triplet loss with customize miner based on SwinTransformer.
-  - I created a simple interface so user can easily to interact with system based on Streamlib and Docker.
+| Role | Organization | Period |
+|---|---|---|
+| **AI Research Engineer** | Lumi-VN · Hanoi, Vietnam | 2026 – present |
+| **Research Engineer** | University of La Rochelle — Neweyes Project · France | 2025 – 2026 |
+| **Research Engineer** | University of La Rochelle — ANR Chamdoc Project · France | 2024 – 2025 |
+| **PhD Candidate, Computer Science** | University of La Rochelle · France | 2020 – 2023 |
+| **AI Engineer** | DopikAI · Hanoi, Vietnam | 2020 – 2021 |
+| **AI Engineer** | TSDV · Hanoi, Vietnam | 2019 – 2020 |
 
-**Duration**: Feb 2020 - Jul 2023
-##### 2. Image Enhancement
+<details>
+<summary><b>Details</b></summary>
 
-- **Objective**: Improve the quality of scanned Cham document images.
-- **Solution**:
-  - I proposed Pix2Pix model with Multi scale Attention for further improve both quantitative and qualitative of documents.
+**AI Research Engineer · Lumi-VN** (2026 – present)
+- Designed multimodal alignment between an audio encoder and an LLM (linear projection), enabling end-to-end speech understanding for ASR and decision-making.
+- Built a real-time Voice Activity Detection (VAD) pipeline for streaming.
+- *Speech-LLMs, Qwen3-Omni, Whisper, WavLM, ASR, VAD*
 
-##### 3. Text Line Segmentation
+**Research Engineer · University of La Rochelle — Neweyes** (2025 – 2026)
+- Reformulated quality estimation for information extraction as a regression problem and adapted LLMs to it through fine-tuning.
+- Aligned LLMs (GRPO, DPO) for named entity recognition and linking — published at EMNLP 2026, LREC 2026 and ICDAR 2026.
+- *GRPO, DPO, RL, GPT-OSS, vLLM, NER, NEL*
 
-- **Objective**: Accurately segment text lines from enhanced images.
-- **Solution**:
-  - I proposed finetuning [docExtractor](https://github.com/monniert/docExtractor) for base line extraction.
-  - I modified the typical Seam Carving algorithm by adding the additional cost fucntion for correcly adjust bounding box.
-    
-##### 4. Text Line Transliteration (OCR)
+**Research Engineer · University of La Rochelle — ANR Chamdoc** (2024 – 2025)
+- Fine-tuned Grounding DINO to detect stamps and seals in manuscripts.
+- Designed a hybrid loss on Swin Transformer V2 for similarity-based image retrieval.
+- *VLMs, Grounding DINO, Swin Transformer, image retrieval*
 
-- **Objective**: Convert segmented Cham text lines into machine-readable text.
-- **Solution**: Seq2Seq model with Transformer
-  - I proposed two step sequence transformer by first using Seq2Seq model to translate text from Cham alphabet to Latin alphabet then using Transformer to adjust the results
-##### Final Deliverable
-This workflow automates the analysis of Cham documents (inscription and manuscript), enhancing images, segmenting text, and converting it into digital text. This process aids in the preservation and further study of Cham cultural heritage.
-### [Invoice Information Extraction]()
-**Duration**: 2020 - 2021
+**PhD Candidate · University of La Rochelle** (2020 – 2023)
+- End-to-end document analysis pipeline for Cham manuscripts, from raw image to text: attention UNet enhancement, text line segmentation (docExtractor + Seam Carving), Seq2Seq/Transformer transliteration.
+- Each component deployed as a microservice (Flask, Docker) in one workflow.
 
-## Overview
-This project focused on developing an automated system for extracting key information from invoices. The project involved creating a robust pre-processing algorithm to handle rotated invoice images and integrating a micro AI service into a complete information extraction pipeline.
+**AI Engineer · DopikAI** (2020 – 2021)
+- End-to-end invoice information extraction with LayoutLMv2, microservices architecture with unit & integration tests.
 
-## Key Activities
+**AI Engineer · TSDV** (2019 – 2020)
+- Wake-word (voice trigger) models with HTK and Kaldi; GANs/VAEs to remove hatching patterns from documents.
 
-### 1. Pre-Processing Algorithm Development
-- **Objective**: Correctly rotate invoice images to standardize orientation for accurate data extraction.
-- **Tasks**:
-  - Developed a pre-processing algorithm to detect and correct the orientation of scanned or photographed invoices.
-  - Utilized image processing techniques to identify text and layout patterns that indicate the correct orientation.
-  - Integrated the algorithm into the pipeline, ensuring that all invoices are properly aligned before further processing.
+</details>
 
-### 2. Micro AI Service Development
-- **Objective**: Create a micro AI service to handle the extraction of key information from invoices.
-- **Tasks**:
-  - Designed and implemented a microservice using AI models capable of identifying and extracting relevant fields (e.g., invoice number, date, total amount) from invoices.
-  - Integrated the micro AI service into the broader pipeline, ensuring seamless data flow and processing.
+## 🚀 Featured Projects
 
-## Tools & Technologies
-- **Image Processing**: Used for developing the rotation correction algorithm, focusing on text detection and orientation analysis.
-- **AI/ML Models**: Implemented to recognize and extract key invoice fields, adaptable to different invoice templates and layouts.
-- **Microservices Architecture**: Designed the AI service as a microservice to enable modular and scalable integration with the extraction pipeline.
+| Project | Description |
+|---|---|
+| [LLMOpsRAG](https://github.com/nguyennampfiev/LLMOpsRAG) | RAG document chatbot on GCP — ingestion, indexing, semantic search, CI/CD, monitoring |
+| [Trend-News-Notifier](https://github.com/nguyennampfiev/Trend-News-Notifier) | Multi-agent LLM system for news search, summarization and broadcasting (AWS, Prometheus, Grafana) |
+| [MCP-demo](https://github.com/nguyennampfiev/MCP-demo) | Model Context Protocol with GPT-OSS |
+| [StampRetrieval](https://github.com/nguyennampfiev/StampRetrieval) | Document retrieval pipeline based on stamp information |
+| [MSAED](https://github.com/nguyennampfiev/MSAED) | Multi-scale attention for document image enhancement |
+| [MDPO-NEL](https://github.com/nguyennampfiev/MDPO-NEL) | Multi-negative preference learning for historical entity linking |
 
+## 📚 Selected Publications
 
-### [ASR]()
-# Automatic Speech Recognition (ASR) Project
+- **T.-N. Nguyen** et al. *Beyond Pairwise Preference: Multi-Negative Preference Learning for LLM-Centric Historical Entity Linking.* **EMNLP 2026**
+- **T.-N. Nguyen** et al. *One Model, Many Guidelines: Instruction Fine-Tuning for Historical Named Entity Recognition.* **ICDAR 2026**
+- **T.-N. Nguyen** et al. *Reference-free at Inference Quality Estimation of Entity Recognition and Linking over OCRed Historical Texts.* **LREC 2026**
+- T.-C. Pham, **T.-N. Nguyen**, V.-D. Hoang, V.-D. Nguyen. *Enhancing Coffee Leaf Disease Classification via Active Learning and Diverse Sample Selection.* **IEEE Access** 13 (2025)
+- **T.-N. Nguyen** et al. *Ambiguity-aware semi-supervised learning for leaf disease classification.* **Scientific Reports** 15 (2025)
+- **T.-N. Nguyen** et al. *Text line segmentation approach combining deep learning model and traditional image processing techniques — Application to Cham manuscript.* **Multimedia Tools and Applications**, 2024
+- **T.-N. Nguyen** et al. *An effective method for text line segmentation in historical document images.* **ICPR 2022**
 
-## Project: Voice Trigger System for Russian, Spanish, and French
+## 🏆 Awards
 
-**Duration**: August 2018 - October 2019
+- 🥉 **3rd place** — HIPE-OCRepair competition, ICDAR 2026
+- 🥇 **1st place (Task 1)**, 4th (Tasks 2 & 3) — "Detect Building Blocks of the Document", ICDAR 2021
+- **5th of 62 teams** — SemEval-2024 Task 8: machine-generated text detection
 
-## Overview
-This project focused on developing a Voice Trigger System tailored for Russian, Spanish, and French languages. The system utilizes Automatic Speech Recognition (ASR) technologies to detect specific voice commands or "triggers." The primary tools used were HTK (Hidden Markov Model Toolkit) and Kaldi, both widely recognized in the speech recognition community.
+## 🛠️ Skills
 
-## Key Activities
+- **LLMs & GenAI:** Fine-tuning (LoRA, PEFT), alignment (GRPO, DPO, RL), quantization, RAG, vector DBs, AI agents, LLM-as-a-judge
+- **Documents & NLP:** OCR, document image analysis, information extraction (LayoutLM), NER, NEL, text classification
+- **Speech:** Speech-LLMs, multimodal alignment, ASR (Whisper, WavLM), real-time VAD
+- **Computer Vision:** Object detection (Grounding DINO), VLMs, fine-grained image retrieval, segmentation, GANs, VAEs
+- **Frameworks:** Python, PyTorch, Hugging Face (Transformers, PEFT, TRL), vLLM, LangChain, OpenAI Agents SDK, MCP
+- **MLOps & Cloud:** Docker, Kubernetes, Terraform, CI/CD, GCP, AWS, Flask, Prometheus, Grafana
 
-### 1. Speech Recognition Investigation
-- **Objective**: Explore and evaluate ASR methodologies based on HTK and Kaldi tools.
-- **Tasks**:
-  - Conducted a the use of mixing tool between HTK and Kaldi for voice trigger systems.
-  - Investigated acoustic and language modeling techniques to optimize recognition accuracy for each target language.
+## 🎓 Education
 
-### 2. Voice Trigger Model Fine-Tuning
-- **Objective**: Adapt and fine-tune the Voice Trigger models for Russian, Spanish, and French.
-- **Tasks**:
-  - Customized and trained models using language-specific datasets to enhance trigger detection accuracy.
-  - Addressed language-specific challenges such as phonetic variability and acoustic differences.
+- **PhD in Computer Science and Applications** — University of La Rochelle, France (2020 – 2023)
+- **Engineering Degree in Information Systems (PFIEV)** — Hanoi University of Science and Technology (2013 – 2018)
 
-## Tools & Technologies
-- **HTK (Hidden Markov Model Toolkit)**: Used for initial ASR model training and evaluation.
-- **Kaldi**: Employed for advanced modeling, including deep learning-based approaches for speech recognition.
-- **Datasets**: Language-specific datasets for Russian, Spanish, and French to train and validate the models.
-
-## Outcomes
-- Successfully developed and fine-tuned Voice Trigger models for Russian, Spanish, and French languages.
-- Achieved high accuracy in detecting voice triggers across different languages by leveraging the strengths of both HTK and Kaldi.
-- The project laid the groundwork for further advancements in multilingual ASR systems, particularly in voice-activated applications.
-
-## 🛠️ Technologies & Tools
-- Tools: Git, Flask, Gradio, Streamlit, Docker, Kubernetes, Postman
-- Computer Vision: Document Image Analysis, Image translation, OCR, Object Detection Fine-grained  Image Retrieval, Segmentation, Human Action Recognition, GANs, VAEs.
-- GenAI: Hugging Face, Langchain, Unstructured Io, Knowledge Graphs
-- NLP: LLMs, PEFT, LORA, Text classification, RAG
-- Languages: Python, Matlab, Java Script, Bash Script, C++
-- Frameworks/Libraries: Numpy, Scikit-learn, Pytorch, Tensorflow, Transformers, Pandas, OpenCV
-- Cloud/DevOps: Docker,  Kubernetes,  RESTful APIs,  Microservices Architecture, GCP
-
-
+🌍 Vietnamese (native) · English (fluent) · French (intermediate)
