@@ -21,7 +21,7 @@ I turn state-of-the-art models into useful products. 6+ years of R&D experience,
 | **Research Engineer** | University of La Rochelle — ANR Chamdoc Project · France | 2024 – 2025 |
 | **PhD Candidate, Computer Science** | University of La Rochelle · France | 2020 – 2023 |
 | **AI Engineer** | DopikAI · Hanoi, Vietnam | 2020 – 2021 |
-| **AI Engineer** | TSDV · Hanoi, Vietnam | 2019 – 2020 |
+| **AI Engineer** | TSDV · Hanoi, Vietnam | Aug 2018 – Dec 2019 |
 
 <details open>
 <summary><b>Details</b></summary>
@@ -64,7 +64,7 @@ I turn state-of-the-art models into useful products. 6+ years of R&D experience,
 - Key-field extraction (invoice number, date, total…) with LayoutLMv2, robust to varied templates.
 - Delivered as a micro AI service in the full pipeline, with unit and integration tests.
 
-### AI Engineer · TSDV (2019 – 2020)
+### AI Engineer · TSDV (Aug 2018 – Dec 2019)
 *Speech recognition & generative models*
 - Wake-word (voice trigger) models for Russian, Spanish and French, combining HTK and Kaldi.
 - Per-language acoustic and language model tuning.
